@@ -1,7 +1,7 @@
 /// <reference types="cypress"/>
 
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
-import PIMPageCy from "../pages/PIMPage.cy";
+import PIMPageCy from "../pages/PIMPage";
 
 Given('je navigue sur le lien {string}', (s) => {
     cy.visit(s);
