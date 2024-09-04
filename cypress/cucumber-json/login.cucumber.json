@@ -31,7 +31,7 @@
             "name": "je navige sur la page OrangeHRM \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"",
             "result": {
               "status": "passed",
-              "duration": 933000000
+              "duration": 1077000000
             }
           },
           {
@@ -41,7 +41,7 @@
             "name": "je rends un nom  d utilisateur \"Admin\"",
             "result": {
               "status": "passed",
-              "duration": 424000000
+              "duration": 550000000
             }
           },
           {
@@ -51,7 +51,7 @@
             "name": "le mot de passe correct \"admin123\"",
             "result": {
               "status": "passed",
-              "duration": 305000000
+              "duration": 312000000
             }
           },
           {
@@ -61,7 +61,7 @@
             "name": "je click sur le button submit",
             "result": {
               "status": "passed",
-              "duration": 896000000
+              "duration": 1053000000
             }
           },
           {
@@ -70,7 +70,8 @@
             "line": 9,
             "name": "je devrai voir  mon compte",
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -90,7 +91,7 @@
             "name": "je navige sur la page OrangeHRM \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"",
             "result": {
               "status": "passed",
-              "duration": 275000000
+              "duration": 320000000
             }
           },
           {
@@ -100,7 +101,7 @@
             "name": "je rends un nom  d utilisateur \"Admin\"",
             "result": {
               "status": "passed",
-              "duration": 520000000
+              "duration": 625000000
             }
           },
           {
@@ -110,7 +111,7 @@
             "name": "le mot de passe correct \"admin1232\"",
             "result": {
               "status": "passed",
-              "duration": 329000000
+              "duration": 335000000
             }
           },
           {
@@ -120,7 +121,7 @@
             "name": "je click sur le button submit",
             "result": {
               "status": "passed",
-              "duration": 746000000
+              "duration": 874000000
             }
           },
           {
@@ -155,7 +156,7 @@
             "name": "je navige sur la page OrangeHRM \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"",
             "result": {
               "status": "passed",
-              "duration": 258000000
+              "duration": 383000000
             }
           },
           {
@@ -165,7 +166,7 @@
             "name": "je rends un nom  d utilisateur \"Admine\"",
             "result": {
               "status": "passed",
-              "duration": 504000000
+              "duration": 633000000
             }
           },
           {
@@ -175,7 +176,7 @@
             "name": "le mot de passe correct \"admin123\"",
             "result": {
               "status": "passed",
-              "duration": 312000000
+              "duration": 303000000
             }
           },
           {
@@ -185,7 +186,7 @@
             "name": "je click sur le button submit",
             "result": {
               "status": "passed",
-              "duration": 688000000
+              "duration": 774000000
             }
           },
           {
@@ -194,7 +195,8 @@
             "line": 32,
             "name": "display error message",
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
