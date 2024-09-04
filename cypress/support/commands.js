@@ -16,6 +16,18 @@
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
 //
+Cypress.Commands.add('login', (username = 'Admin', password = 'admin123') => {
+    cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
+   
+        cy.get('input[name=username]').type("Admin");
+        cy.get( 'input[name=password]').type("admin123");
+        cy.get('button[type="submit"]').click();
+        cy.get('.oxd-topbar-header-breadcrumb > .oxd-text').should('be.visible');
+       
+           
+})
+
+
 //
 // -- This is a dual command --
 // Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
