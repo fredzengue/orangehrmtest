@@ -1,4 +1,5 @@
 Feature: Ajout d'un nouveau PIM
+# ajout dun nouvel employe
 
   Scenario: Ajout d'un nouveau avec toutes les informations correctes
     Given je navigue sur le lien "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
