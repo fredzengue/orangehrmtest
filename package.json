@@ -8,7 +8,7 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "cy:chromeA": "cypress run --browser chrome && node multiple-cucumber-html-reporter.js "
+    "cy:chrome": "cypress run --browser chrome && node multiple-cucumber-html-reporter.js"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
