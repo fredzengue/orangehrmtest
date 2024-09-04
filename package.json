@@ -2,14 +2,20 @@
   "devDependencies": {
     "cucumber": "^6.0.7",
     "cypress": "^13.14.1",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^3.7.0"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:chromeA": "cypress run --browser chrome && node multiple-cucumber-html-reporter.js "
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
     "stepDefinitions": "cypress/steps",
-    "cucumberJson" : {
-      "generate" : true,
-      "outputFolder" : "cypress/cucumber-json",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
       "filePrefix": "",
       "fileSuffix": ".cucumber"
     }
