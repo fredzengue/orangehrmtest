@@ -1,0 +1,142 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Ajout d'un nouveau PIM",
+    "line": 1,
+    "id": "ajout-d'un-nouveau-pim",
+    "tags": [],
+    "uri": "pim.feature",
+    "elements": [
+      {
+        "id": "ajout-d'un-nouveau-pim;ajout-d'un-nouveau-avec-toutes-les-informations-correctes",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Ajout d'un nouveau avec toutes les informations correctes",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "je navigue sur le lien \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"",
+            "result": {
+              "status": "passed",
+              "duration": 556000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "je renseigne mon username \"Admin\"",
+            "result": {
+              "status": "passed",
+              "duration": 384000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "je renseigne mon mot de passe \"admin123\"",
+            "result": {
+              "status": "passed",
+              "duration": 397000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "je clique sur le bouton login",
+            "result": {
+              "status": "passed",
+              "duration": 1151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "jaccede sur dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "je clique sur le lien PIM",
+            "result": {
+              "status": "passed",
+              "duration": 1651000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "je clique sur le bouton Add",
+            "result": {
+              "status": "passed",
+              "duration": 853000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "jaccede à la page dajout dun nouvel employee",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "je renseigne le firstname \"toto\"",
+            "result": {
+              "status": "passed",
+              "duration": 985000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "je renseigne le lastname \"tata\"",
+            "result": {
+              "status": "passed",
+              "duration": 366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "je clique sur le bouton save",
+            "result": {
+              "status": "passed",
+              "duration": 112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "affichage dun toast de succes",
+            "result": {
+              "status": "passed",
+              "duration": 1358000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
