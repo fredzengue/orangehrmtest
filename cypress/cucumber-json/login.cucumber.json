@@ -1,0 +1,206 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login sur  le site de OrangeHRM",
+    "line": 1,
+    "id": "login-sur--le-site-de-orangehrm",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-sur--le-site-de-orangehrm;login-with-correct-credentials",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Login with correct credentials",
+        "tags": [
+          {
+            "name": "@smock",
+            "line": 3
+          },
+          {
+            "name": "@env1",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "je navige sur la page OrangeHRM \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"",
+            "result": {
+              "status": "passed",
+              "duration": 277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "je rends un nom  d utilisateur \"Admin\"",
+            "result": {
+              "status": "passed",
+              "duration": 454000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "le mot de passe correct \"admin123\"",
+            "result": {
+              "status": "passed",
+              "duration": 305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "je click sur le button submit",
+            "result": {
+              "status": "passed",
+              "duration": 1000000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "je devrai voir  mon compte",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-sur--le-site-de-orangehrm;login-with-username-correct-and-password-not-incorrect",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Login with username correct and password not incorrect",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "je navige sur la page OrangeHRM \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"",
+            "result": {
+              "status": "passed",
+              "duration": 286000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "je rends un nom  d utilisateur \"Admin\"",
+            "result": {
+              "status": "passed",
+              "duration": 512000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "le mot de passe correct \"admin1232\"",
+            "result": {
+              "status": "passed",
+              "duration": 337000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "je click sur le button submit",
+            "result": {
+              "status": "passed",
+              "duration": 735000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "display error message",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-sur--le-site-de-orangehrm;login-with-username-incorrect-and-password-not-correct",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Login with username incorrect and password not correct",
+        "tags": [
+          {
+            "name": "@sanity",
+            "line": 26
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "je navige sur la page OrangeHRM \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"",
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "je rends un nom  d utilisateur \"Admine\"",
+            "result": {
+              "status": "passed",
+              "duration": 521000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "le mot de passe correct \"admin123\"",
+            "result": {
+              "status": "passed",
+              "duration": 300000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "je click sur le button submit",
+            "result": {
+              "status": "passed",
+              "duration": 417000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "display error message",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
